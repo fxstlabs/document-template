@@ -6,6 +6,7 @@
 
 #let template(doc) = {
 
+  // Cover Page
   
   set document(
     title: config.title,
@@ -44,6 +45,8 @@
 
   pagebreak()
 
+  // Document metadata and details
+
   heading(outlined:false)[About this Document]
 
   v(2em)
@@ -55,7 +58,7 @@
     [Last modified], [#config.date.display(config.date_display_format)],
     [Document ID], [#config.document-id],
     [Document Version], [#config.document-version],
-    [Copyright], [#cc-icon() #cc-by-icon() #cc-nc-icon() (#link("https://creativecommons.org/licenses/by-nd/4.0/", [CC BY NC]))],
+    [Copyright], [#cc-icon() #cc-by-icon() #cc-nd-icon() (#link("https://creativecommons.org/licenses/by-nd/4.0/", [CC BY NC]))],
   )
   
   v(2em)
@@ -66,9 +69,17 @@
     bottom + right,
     image(config.cover_image, width: 3cm)
   )
+  
+  pagebreak()
+
+  // Document Index
+  
+  index()
 
   pagebreak()
 
+  // Main content
+  
   counter(page).update(1)
 
   set page(
@@ -80,12 +91,18 @@
     numbering: "1 of 1"
   )
 
+  set heading(numbering: "1.1.")
+
   doc
   
   set page(
     header: [],
     footer: [],
   )
+
+  pagebreak()
+
+  bibliography("/bibliography.yaml", style: "ieee")
 
   pagebreak()
 
