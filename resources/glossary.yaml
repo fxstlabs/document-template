@@ -1,0 +1,7 @@
+feline-bcs:
+  short: BCS
+  long: Body Condition Score
+  description: A standardized way vets assess whether a cat is underweight, ideal, or obese, using feel and shape rather than just a scale.
+  group: Felines
+  references: 
+    - pop-cat-bcs
