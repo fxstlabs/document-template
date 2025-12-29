@@ -1,0 +1,53 @@
+rfc-2119:
+  type: misc
+  title: '{Key words for use in RFCs to Indicate Requirement Levels}'
+  author: Bradner, Scott O.
+  date: 1997-03
+  publisher: RFC Editor
+  issue: 2119
+  page-total: 3
+  url: https://www.rfc-editor.org/info/rfc2119
+  serial-number:
+    doi: 10.17487/RFC2119
+  note: RFC 2119
+  abstract: In many standards track documents several words are used to signify the requirements in the specification. These words are often capitalized. This document defines these words as they should be interpreted in IETF documents. This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.
+  parent:
+    type: misc
+    title: Request for Comments
+
+pop-cat-bcs:
+  type: web
+  title: Cat Body Condition Score Chart (BCS)
+  author: Association for Pet Obesity Prevention
+  date: null
+  url: https://www.petobesityprevention.org/catbcs
+
+cats-salami:
+  type: web
+  title: Can Cats Eat Salami?
+  url: https://cats.com/can-cats-eat-salami
+  author:  Dr. Joanna Woodnutt
+
+typst-zero:
+  type: web
+  title: zero
+  url: https://typst.app/universe/package/zero
+  author: Mc-Zen
+
+typst-codly:
+  type: web
+  title: codly
+  url: https://typst.app/universe/package/codly
+  author: Dherse
+
+typst-glossy:
+  type: web
+  title: glossy
+  url: https://typst.app/universe/package/glossy
+  author: Stephen Waits
+
+eepy-cat:
+  type: post
+  title: Sleeping cat Free Stock Image
+  url: "https://stocksnap.io/photo/sleeping-cat-CYUELCXZ74"
+  author: Travel Photographer
