@@ -33,7 +33,7 @@
     table.header(strong[Key], strong[Value]),
     [Document Title], __document.title,
     [Document Collection], __document.collection,
-    [Document ID], __document.id,
+    [Document Location], __document.location,
     [Document Version], __document.version,
     [Last Modified], __today.display("[day] [month repr:long] [year repr:full]")
   )
